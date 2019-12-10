@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-3  col-md-6 col-sm-6">
 				<div class="single-footer-widget">
-					<h4 class="text-white">About</h4>
+					<h4 class="text-white">About CallMetron</h4>
 					<p>
 						CallMetron is a revolutionary product that allows you to discover the value of the data in your organization's call logs.
 					</p>
@@ -13,18 +13,18 @@
 				<div class="single-footer-widget">
 					<h4 class="text-white">Contact Us</h4>
 					<p>
-						Ready to join us? Drop us a line anytime!
+						Ready to partner with us? Make the call!
 					</p>
 					<p class="number">
-						012-6532-568-9746 <br>
-						012-6532-569-9748
+						+254-712-568-946 <br>
+						+254-722-569-748
 					</p>
 				</div>
 			</div>
 			<div class="col-lg-5  col-md-6 col-sm-6">
 				<div class="single-footer-widget">
 					<h4 class="text-white">GET A QUOTE</h4>
-					<p>Need us to drop you a quick quote?Leave your email and we will get back to you ASAP.</p>
+					<p>Need us to drop you a quick quote? Leave your email and we will get back to you ASAP.</p>
 					<div class="d-flex flex-row" id="mc_embed_signup">
 
 
