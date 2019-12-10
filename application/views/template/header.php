@@ -38,13 +38,13 @@ header('Cache-Control: max-age=900');
 	<div class="container">
 		<div class="row align-items-center justify-content-between d-flex">
 			<div id="logo">
-				<a href="<?php echo base_url(); ?>home"><img src="<?php echo base_url(); ?>assets/img/logo.png" alt="" title="" /></a>
+				<a href="<?php echo base_url(); ?>index.php "><img src="<?php echo base_url(); ?>assets/img/logo.png" alt="" title="" /></a>
 			</div>
 			<nav id="nav-menu-container">
 				<ul class="nav-menu">
-					<li class="menu-active"><a href="#home">Home</a></li>
-					<li><a href="#feature">Features</a></li>
-					<li><a href="#contact">Contact Us</a></li>
+					<li class="menu-active"><a href="<?php echo base_url(); ?>index.php">Home</a></li>
+					<li><a href="<?php echo base_url(); ?>features">Features</a></li>
+					<li><a href="<?php echo base_url(); ?>contact">Contact Us</a></li>
 				</ul>
 			</nav>
 			<!-- #nav-menu-container -->
