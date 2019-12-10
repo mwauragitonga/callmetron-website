@@ -6,8 +6,8 @@
 		<div class="row d-flex justify-content-center">
 			<div class="menu-content pb-30 col-lg-8">
 				<div class="title text-center">
-					<h1 class="mb-10">If you need, Just drop us a line</h1>
-					<p>Who are in extremely love with eco friendly system.</p>
+					<h1 class="mb-10">Have any inquiry?Just drop us a line</h1>
+					<p>We will get back to you ASAP.</p>
 				</div>
 			</div>
 		</div>
@@ -21,7 +21,7 @@
 					<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
 				</div>
 				<div class="col-lg-6 form-group">
-					<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+					<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required=""></textarea>
 					<button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
 					<div class="mt-10 alert-msg">
 					</div>
