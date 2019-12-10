@@ -7,12 +7,12 @@
 			<div class="banner-content col-lg-7 col-md-12">
 				<h4 class="text-uppercase">Discover the Value of Your Data</h4>
 				<h1>
-					CallMetron 1.0
+					CallMetron 10.2.1
 				</h1>
 				<p>
 					<b>Next Level Call Manager</b> turning complex organizational call management into a  <b>simple and seamless solution! </b>
 				</p>
-				<a href="<?php echo base_url(); ?>loginPage" class="primary-btn header-btn text-uppercase">Log In</a>
+				<a href="<?php echo base_url(); ?>" class="primary-btn header-btn text-uppercase">Explore</a>
 			</div>
 		</div>
 	</div>

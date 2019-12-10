@@ -29,17 +29,17 @@
 			</div>
 			<div class="col-lg-4 col-md-6">
 				<div class="single-service">
-					<h4><span class="lnr lnr-user"></span>Admin Portal</h4>
+					<h4><span class="lnr lnr-user"></span>Admin Dashboard</h4>
 					<p>
-					An admin portal that allows authorized personnel to view, generate, schedule reports as well as perform various administrative actions on a simple, intuitive dashboard.
+					An administrator portal that allows authorized personnel to view, generate, schedule reports as well as perform various administrative actions on a simple, intuitive dashboard.
 					</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
 				<div class="single-service">
-					<h4><span class="lnr lnr-users"></span>User Portal</h4>
+					<h4><span class="lnr lnr-users"></span>User Dashboard</h4>
 					<p>
-						User Dashboard accessible by all members of an organization allowing them to view their own usage reports, usage analysis, manage their accounts and settings.
+						User portal accessible by all members of an organization allowing them to view their own usage reports, usage analysis, manage their accounts and settings.
 					</p>
 				</div>
 			</div>
