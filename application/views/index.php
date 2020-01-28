@@ -10,7 +10,7 @@
 					CallMetron 10.2.1
 				</h1>
 				<p>
-					<b>Next Level Call Manager</b> turning complex organizational call management into a  <b>simple and seamless solution! </b>
+					<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a  <b>simple and seamless solution! </b>
 				</p>
 				<a href="<?php echo base_url(); ?>" class="primary-btn header-btn text-uppercase">Explore</a>
 			</div>
@@ -25,18 +25,18 @@
 		<div class="row">
 			<div class="single-feature col-lg-4">
 				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/f1.png" alt="">
-				<h4>Online Support</h4>
-				<p>Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<h4>Simple</h4>
+				<p>Hassle free navigation from a central dashboard granting you access to different modules </p>
 			</div>
 			<div class="single-feature col-lg-4">
 				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/f2.png" alt="">
-				<h4>24/7 Round the Clock</h4>
-				<p>Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<h4>Powerful</h4>
+				<p>Leveraging different technologies to provide a single powerful platform capable of handling small to large organizational needs.</p>
 			</div>
 			<div class="single-feature col-lg-4">
 				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/f3.png" alt="">
-				<h4>Handling All Issues</h4>
-				<p>Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<h4>Effective</h4>
+				<p>You can always count on CallMetron to deliver effective and efficient call billing and analytics.</p>
 			</div>
 		</div>
 	</div>

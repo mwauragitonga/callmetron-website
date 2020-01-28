@@ -60,7 +60,31 @@
 					</p>
 				</div>
 			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-service">
+					<h4><span class="lnr lnr-inbox"></span>Active Directory Import and Sync</h4>
+					<p>
+						Using Active Directory within your organization? No need to worry, CallMetron allows you to import users anytime and constantly sync to update content just by the click of a button.
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-service">
+					<h4><span class="lnr lnr-lock"></span>Active Directory User Authentication</h4>
+					<p>
+						Users within an organization can use their Active Directory credentials to access CallMetron.
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-service">
+					<h4><span class="lnr lnr-star-empty"></span>Customize-able & Scale-able</h4>
+					<p>
+						CallMetron can be customized to fit different organizational structures and needs as well as scaled to provide further functionality as needed.
 
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
