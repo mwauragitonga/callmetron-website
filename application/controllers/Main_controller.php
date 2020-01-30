@@ -18,4 +18,8 @@ class Main_controller extends CI_Controller {
 	{
 		$this->load->view('contact');
 	}
+	public function partner()
+	{
+		$this->load->view('partners');
+	}
 }
