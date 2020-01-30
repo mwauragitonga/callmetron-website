@@ -43,12 +43,19 @@
 					</p>
 				</div>
 			</div>
-
 			<div class="col-lg-4 col-md-6">
 				<div class="single-service">
-					<h4><span class="lnr lnr-dice"></span>Department Analysis</h4>
+					<h4><span class="lnr lnr-inbox"></span>Active Directory Import </h4>
 					<p>
-						Monitor the budget and phone usage of departments from a simple dashboard as well as generate reports to ensure each unit of the organization achieves its targets
+						Using Active Directory within your organization? No need to worry, CallMetron allows you to import users anytime and constantly sync to update content just by the click of a button.
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-service">
+					<h4><span class="lnr lnr-lock"></span>Active Directory Login</h4>
+					<p>
+						Users within an organization can use their Active Directory credentials to access CallMetron.
 					</p>
 				</div>
 			</div>
@@ -62,20 +69,13 @@
 			</div>
 			<div class="col-lg-4 col-md-6">
 				<div class="single-service">
-					<h4><span class="lnr lnr-inbox"></span>Active Directory Import and Sync</h4>
+					<h4><span class="lnr lnr-dice"></span>Department Analysis</h4>
 					<p>
-						Using Active Directory within your organization? No need to worry, CallMetron allows you to import users anytime and constantly sync to update content just by the click of a button.
+						Monitor the budget and phone usage of departments from a simple dashboard as well as generate reports to ensure each unit of the organization achieves its targets
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-service">
-					<h4><span class="lnr lnr-lock"></span>Active Directory User Authentication</h4>
-					<p>
-						Users within an organization can use their Active Directory credentials to access CallMetron.
-					</p>
-				</div>
-			</div>
+
 			<div class="col-lg-4 col-md-6">
 				<div class="single-service">
 					<h4><span class="lnr lnr-star-empty"></span>Customize-able & Scale-able</h4>
