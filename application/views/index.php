@@ -10,9 +10,13 @@
 					CallMetron 10.2.1
 				</h1>
 				<p>
-					<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a  <b>simple and seamless solution! </b>
-				</p>
-				<a href="<?php echo base_url(); ?>" class="primary-btn header-btn text-uppercase">Explore</a>
+					<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a
+					<b>simple and seamless solution! </b><br>
+					Few would argue that, despite the advancements of technology over the past three decades, that businesses can effectively handle their call billing
+					and analytics.
+				<p style="font-family: 'Comic Sans MS'">
+					Worry No More! CallMetron is here!</p>
+				<a href="#about" class="primary-btn header-btn text-uppercase">Explore</a>
 			</div>
 		</div>
 	</div>
@@ -31,7 +35,8 @@
 			<div class="single-feature col-lg-4">
 				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/f2.png" alt="">
 				<h4>Powerful</h4>
-				<p>Leveraging different technologies to provide a single powerful platform capable of handling small to large organizational needs.</p>
+				<p>Leveraging different technologies to provide a single powerful platform capable of handling small to
+					large organizational needs.</p>
 			</div>
 			<div class="single-feature col-lg-4">
 				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/f3.png" alt="">
@@ -50,24 +55,33 @@
 				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/info-img.jpg" alt="">
 			</div>
 			<div class="col-lg-6 col-md-12 info-right no-padding">
-				<h1>Responsible <br>
-					Customer Support</h1>
-				<p>
-					Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+				<h1>About CallMetron <br></h1>
+				<p style="font-family: 'Comic Sans MS'">
+					For any business in this era,from small sized enterprises to fortune 500 companies, employees make
+					numerous calls within and without every day.</p>
+				<br>
+
+				<p style="font-family: 'Comic Sans MS'">Most of these calls are necessary in the day to day operations of the business, but then it becomes
+					hard for the management to have a complete grip of the process. As such it's very easy for the calls made to rack up insane costs at times way beyond the budgeted amounts. </p>
+				<p style="font-family: 'Comic Sans MS'">	CallMetron is a powerful solution allowing organizations to monitor and analyze calls within their
+					business.
+				<br>
+				<p style="font-family: 'Comic Sans MS'"><b><h4>Contact Us today and change how your business handles call billing and analytics!</h4></b>
 				</p>
-				<button class="primary-btn mt-20 text-uppercase">Learn More<span class="lnr lnr-arrow-right"></button>
+				<a href="<?php echo base_url(); ?>contact"><button class="primary-btn mt-20 text-uppercase">Request Demo<span class="lnr lnr-arrow-right"></button></a>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- End info Area -->
+
 <!-- Start offered Area -->
 <section class="offered-area" id="weoffer">
 	<div class="container">
 		<div class="menu-content pb-60 col-lg-8">
 			<div class="title text-center">
-				<h1 class="mb-10 text-white">Our Offered Services</h1>
-				<p class="text-white">Who are in extremely love with eco friendly system.</p>
+				<!--				<h1 class="mb-10 text-white">Our Offered Services</h1>-->
+				<!--				<p class="text-white">Who are in extremely love with eco friendly system.</p>-->
 			</div>
 		</div>
 		<div class="row align-items-center justify-content-start">
@@ -75,52 +89,145 @@
 				<div class="offer-wrap flex-row d-flex row">
 					<div class="col-4">
 						<div class="single-offer mb-30">
-							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o1.png" alt=""></d>
+							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o1.png"
+												 alt=""></d>
 						</div>
 					</div>
 					<div class="col-4">
 						<div class="single-offer mb-30">
-							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o2.png" alt=""></d>
+							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o2.png"
+												 alt=""></d>
 						</div>
 					</div>
 					<div class="col-4">
 						<div class="single-offer mb-30">
-							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o3.png" alt=""></d>
+							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o3.png"
+												 alt=""></d>
 						</div>
 					</div>
 					<div class="col-4">
 						<div class="single-offer">
-							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o4.png" alt=""></d>
+							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o4.png"
+												 alt=""></d>
 						</div>
 					</div>
 					<div class="col-4">
 						<div class="single-offer">
-							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o5.png" alt=""></d>
+							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o5.png"
+												 alt=""></d>
 						</div>
 					</div>
 					<div class="col-4">
 						<div class="single-offer">
-							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o6.png" alt=""></d>
+							<a href="#"></a><img class="img-fluid" src="<?php echo base_url(); ?>assets/img/o6.png"
+												 alt=""></d>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-5 offered-right">
-				<h4>Content Synchronization</h4>
+				<h4>Why Choose CallMetron?</h4>
 				<p class="pt-20 pb-20">
-					Few would argue that, despite the advancements off eminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior.
+
+				<ul style="list-style-type:circle;  ">
+					<li>CallMetron is designed for all sizes of organizations, handling all sizes of telephone
+							traffic while delivering unrivalled and desired call
+							billing and analytics.</li>
+					<li><b> Fast, Reliable and Scalable.</b></li>
+					<li>We ensure complete control of incoming and outgoing calls across all departments through our
+							powerful, in-depth reports module.</li>
+					<li><b>Scheduled reports and alerts for both administrators and users.</b></li>
+					<li><b>Active Directory Integration</b> to allow fast and easy importing( or sync) users as well as
+						use of Active Directory Credentials to authenticate users in CallMetron.
+					</li>
+					<li><b>This is just the scratch of the surface, CallMetron packs many more features and functionalities</b></li>
+				</ul>
+
+
 				</p>
-				<a href="#" class="primary-btn header-btn text-uppercase">View Details</a>
+				<a href="<?php echo base_url(); ?>features" class="primary-btn header-btn text-uppercase">More Features</a>
 			</div>
 		</div>
 	</div>
 </section>
+
+<br>
+<br>
 <!-- End offered Area -->
+<!-- Start testimonial Area -->
+<section class="testimonial-area relative section-gap">
+	<div class="overlay overlay-bg"></div>
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="menu-content pb-60 col-lg-8">
+				<div class="title text-center">
+					<h1 class="mb-10 text-white">Testimonials</h1>
+					<p class="text-white">What some of our clients have to say about CallMetron.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="active-testimonial">
+				<div class="single-testimonial item d-flex flex-row">
+					<div class="thumb">
+						<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/user1.png" alt="">
+					</div>
+					<div class="desc">
+						<p>
+							CallMetron has helped us a great deal with our Call Billing and we couldn't be more happier we adopted this awesome solution.
+						</p>
+						<h4 mt-30>Mwaura Gitonga</h4>
+						<p>CEO at Luvenis Ventures</p>
+					</div>
+				</div>
+				<div class="single-testimonial item d-flex flex-row">
+					<div class="thumb">
+						<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/user2.png" alt="">
+					</div>
+					<div class="desc">
+						<p>
+							I would recommend any company struggling to control their phone traffic and costs to take up CallMetron. I promise they will not regret it!
+						</p>
+						<h4 mt-30>Mark Alviro Wiens</h4>
+						<p>Head of Infrastructure, Innesco Enterprises</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End testimonial Area -->
 
 
+<!-- Start brand Area -->
+<section class="brand-area">
+	<div class="container">
+		<div class="row logo-wrap">
+			<a class="col single-img" href="#">
+				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l1.png" alt="">
+			</a>
+			<a class="col single-img" href="#">
+				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l2.png" alt="">
+			</a>
+			<a class="col single-img" href="#">
+				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l3.png" alt="">
+			</a>
+			<a class="col single-img" href="#">
+				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l4.png" alt="">
+			</a>
+			<a class="col single-img" href="#">
+				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l5.png" alt="">
+			</a>
+		</div>
+	</div>
+</section>
+<!-- End brand Area -->
 <!-- Start fact Area -->
 <section class="facts-area section-gap">
+	<!--	<h3 style="">Why Choose CallMetron?</h3>-->
+
 	<div class="container">
+
 		<div class="row">
 			<div class="col single-fact">
 				<h1 class="counter">2536</h1>
@@ -146,32 +253,6 @@
 	</div>
 </section>
 <!-- end fact Area -->
-
-<!-- Start brand Area -->
-<section class="brand-area">
-	<div class="container">
-		<div class="row logo-wrap">
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l1.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l2.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l3.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l4.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l5.png" alt="">
-			</a>
-		</div>
-	</div>
-</section>
-<!-- End brand Area -->
-
-
 
 <!-- start footer Area -->
 <?php $this->load->view('template/footer'); ?>

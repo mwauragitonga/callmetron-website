@@ -5,7 +5,7 @@
 				<div class="single-footer-widget">
 					<h4 class="text-white">About CallMetron</h4>
 					<p>
-						CallMetron is a revolutionary product that allows you to discover the value of the data in your organization's call logs.
+						CallMetron is a revolutionary product that changes how organizations handle Call Billing And Analytics.
 					</p>
 				</div>
 			</div>
@@ -24,7 +24,7 @@
 			<div class="col-lg-5  col-md-6 col-sm-6">
 				<div class="single-footer-widget">
 					<h4 class="text-white">GET A QUOTE</h4>
-					<p>Need us to drop you a quick quote? Leave your email and we will get back to you ASAP.</p>
+					<p>Need us to drop you a quick quote or schedule a demo? Leave your email and we will get back to you ASAP.</p>
 					<div class="d-flex flex-row" id="mc_embed_signup">
 
 
@@ -64,14 +64,14 @@
 <script src="<?php echo base_url(); ?>assets/js/hoverIntent.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/superfish.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/jquery.ajaxchimp.min.js"></script>
-<script src=<?php echo base_url(); ?>assets/"js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/owl.carousel.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/jquery.sticky.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/jquery.nice-select.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/waypoints.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/jquery.counterup.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/parallax.min.js"></script>
-<script src=<?php echo base_url(); ?>assets/"js/mail-script.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/mail-script.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 </body>
 </html>
