@@ -7,7 +7,7 @@ header('Cache-Control: max-age=900');
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="icon" href="<?php echo base_url(); ?>assets/images/icon.icon" type="image/icon" />
+	<link rel="icon" href="<?php echo base_url(); ?>assets/img/icon.ico" type="image/icon" />
 	<!-- Author Meta -->
 	<meta name="author" content="U70XDN">
 	<!-- Meta Description -->
@@ -17,12 +17,11 @@ header('Cache-Control: max-age=900');
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>CallMetron | Call Manager</title>
+	<title>CallMetron | Call Billing | Call Analytics</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-	<!--
-	CSS
-	============================================= -->
+	<!--CSS============================================= -->
+<!--	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/linearicons.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
@@ -38,13 +37,14 @@ header('Cache-Control: max-age=900');
 	<div class="container">
 		<div class="row align-items-center justify-content-between d-flex">
 			<div id="logo">
-				<a href="<?php echo base_url(); ?>home"><img src="<?php echo base_url(); ?>assets/img/logo.png" alt="" title="" /></a>
+				<a href="<?php echo base_url(); ?>index.php "><img src="<?php echo base_url(); ?>assets/img/logo.png" alt="" title="" /></a>
 			</div>
 			<nav id="nav-menu-container">
 				<ul class="nav-menu">
-					<li class="menu-active"><a href="#home">Home</a></li>
-					<li><a href="#feature">Features</a></li>
-					<li><a href="#contact">Contact Us</a></li>
+					<li class="menu-active"><a href="<?php echo base_url(); ?>index.php">Home</a></li>
+					<li><a href="<?php echo base_url(); ?>features">Features</a></li>
+					<li><a href="<?php echo base_url(); ?>partner">Partners</a></li>
+					<li><a href="<?php echo base_url(); ?>contact">Contact Us</a></li>
 				</ul>
 			</nav>
 			<!-- #nav-menu-container -->
