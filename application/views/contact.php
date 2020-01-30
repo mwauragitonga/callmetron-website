@@ -8,10 +8,27 @@
 				<div class="title text-center">
 					<h1 class="mb-10">Have any inquiry?Just drop us a line</h1>
 					<p>We will get back to you ASAP.</p>
+
+					<?php if(!empty($message) && $message =='Email Sent, We will be in touch ASAP.'){ ?>
+						<div class="alert alert-success alert-dismissible " role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+							</button>
+							<strong><?php echo $message; ?></strong>
+						</div>
+
+					<?php }elseif(!empty($message) && $message == 'Email not sent! Please try again.'){ ?>
+						<div class="alert alert-danger alert-dismissible " role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+							</button>
+							<strong><?php echo $message; ?></strong>
+						</div>
+					<?php } ?>
 				</div>
 			</div>
 		</div>
-		<form class="form-area mt-60" id="myForm" action="mail.php" method="post" class="contact-form text-right">
+		<?php echo(form_open('sendContactMail')) ?>
+
+		<div class="form-area mt-60" id="myForm" action="<?php echo base_url(); ?>sendMail" method="post" class="contact-form text-right">
 			<div class="row">
 				<div class="col-lg-6 form-group">
 					<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
@@ -22,12 +39,10 @@
 				</div>
 				<div class="col-lg-6 form-group">
 					<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required=""></textarea>
-					<button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
-					<div class="mt-10 alert-msg">
-					</div>
+					<button type="submit" class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
 				</div></div>
-		</form>
-
+			<?php echo form_close() ?>
+		</div>
 	</div>
 </section>
 <!-- end contact Area -->

@@ -7,7 +7,7 @@ header('Cache-Control: max-age=900');
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="icon" href="<?php echo base_url(); ?>assets/images/icon.icon" type="image/icon" />
+	<link rel="icon" href="<?php echo base_url(); ?>assets/img/icon.ico" type="image/icon" />
 	<!-- Author Meta -->
 	<meta name="author" content="U70XDN">
 	<!-- Meta Description -->
@@ -20,9 +20,8 @@ header('Cache-Control: max-age=900');
 	<title>CallMetron | Call Billing | Call Analytics</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-	<!--
-	CSS
-	============================================= -->
+	<!--CSS============================================= -->
+<!--	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/linearicons.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
