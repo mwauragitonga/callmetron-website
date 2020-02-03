@@ -10,7 +10,7 @@
 					CallMetron 10.2.1
 				</h1>
 				<p>
-					<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a
+					<b>Next Generation Call Billing and Analytics.</b> Turning complex organizational call management into a
 					<b>simple and seamless solution! </b><br>
 					Few would argue that, despite the advancements of technology over the past three decades, that businesses can effectively handle their call billing
 					and analytics.

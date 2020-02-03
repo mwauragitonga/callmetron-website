@@ -13,11 +13,12 @@
 				<div class="single-footer-widget">
 					<h4 class="text-white">Contact Us</h4>
 					<p>
-						Ready to partner with us? Make the call!
+						Ready to partner with us? Make the call !
 					</p>
 					<p class="number">
-						+254-712-568-946 <br>
-						+254-722-569-748
+						+1 573 260 4219 <br> </p>
+					or send us an email at<p class="number">
+						info@callmetron.com
 					</p>
 				</div>
 			</div>
