@@ -16,7 +16,7 @@ class Main_controller extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->force_ssl();
+		//$this->force_ssl();
 		$this->load->view('index');
 	}
 	public function features()

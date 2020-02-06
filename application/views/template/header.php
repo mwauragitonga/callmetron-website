@@ -4,6 +4,16 @@ header('Cache-Control: max-age=900');
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141622029-3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-141622029-3');
+	</script>
+
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
@@ -18,7 +28,7 @@ header('Cache-Control: max-age=900');
 	<meta charset="UTF-8">
 	<!-- Site Title -->
 	<title>CallMetron | Call Billing | Call Analytics</title>
-
+	<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<!--CSS============================================= -->
 <!--	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->

@@ -52,18 +52,18 @@
 	<div class="container-fluid">
 		<div class="row d-flex justify-content-end align-items-center">
 			<div class="col-lg-6 col-md-12 info-left no-padding">
-				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/info-img.jpg" alt="">
+				<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/welcome.png" alt="">
 			</div>
 			<div class="col-lg-6 col-md-12 info-right no-padding">
 				<h1>About CallMetron <br></h1>
-				<p style="font-family: 'Comic Sans MS'">
+				<p>
 					For any business in this era,from small sized enterprises to fortune 500 companies, employees make
 					numerous calls within and without every day.</p>
 				<br>
 
-				<p style="font-family: 'Comic Sans MS'">Most of these calls are necessary in the day to day operations of the business, but then it becomes
+				<p>Most of these calls are necessary in the day to day operations of the business, but then it becomes
 					hard for the management to have a complete grip of the process. As such it's very easy for the calls made to rack up insane costs at times way beyond the budgeted amounts. </p>
-				<p style="font-family: 'Comic Sans MS'">	CallMetron is a powerful solution allowing organizations to monitor and analyze calls within their
+				<p>	CallMetron is a powerful solution allowing organizations to monitor and analyze calls within their
 					business.
 				<br>
 				<p style="font-family: 'Comic Sans MS'"><b><h4>Contact Us today and change how your business handles call billing and analytics!</h4></b>
