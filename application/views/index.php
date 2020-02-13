@@ -200,27 +200,27 @@
 
 
 <!-- Start brand Area -->
-<section class="brand-area">
-	<div class="container">
-		<div class="row logo-wrap">
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l1.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l2.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l3.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l4.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l5.png" alt="">
-			</a>
-		</div>
-	</div>
-</section>
+<!--<section class="brand-area">-->
+<!--	<div class="container">-->
+<!--		<div class="row logo-wrap">-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l1.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l2.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l3.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l4.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l5.png" alt="">-->
+<!--			</a>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</section>-->
 <!-- End brand Area -->
 <!-- Start fact Area -->
 <section class="facts-area section-gap">
