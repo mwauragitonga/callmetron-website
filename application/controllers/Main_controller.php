@@ -4,8 +4,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Main_controller extends CI_Controller {
 
 	/**
-
+	 * Main controller for callmetron website
+	 * developed by U70XDN
+	 * mail: mwauragitonga12@gmail.com
 	 */
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('callmetron_model');
+
+	}
 	public function force_ssl()
 	{
 		if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != "on") {
@@ -134,5 +142,47 @@ class Main_controller extends CI_Controller {
 			$this->load->view('partners.php', $data);
 		}
 	}
+	public function subscribeNewsletter(){
 
+		$to = 'info@callmetron.com';
+		$from='contact@callmetron.com';
+		$email =$this->input->post("email");
+		$subject = 'NEWSLETTER';
+		$config['protocol'] = 'smtp';
+		$config['smtp_host'] = 'www.callmetron.com';
+		$config['smtp_port'] = '465';
+		$config['smtp_user'] = $from;
+		$config['smtp_pass'] = 'Tuende2020**';
+		$config['smtp_crypto'] = 'ssl';
+		$config['charset'] = 'iso-8859-1';
+		$config['wordwrap'] = TRUE;
+		$headers = 'MIME-Version: 1.0' . "\r\n";
+		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+		$this->load->library('email');
+		$this->email->initialize($config);
+		$this->email->set_newline("\r\n");
+		$this->email->set_mailtype("html");
+		$this->email->from($email);
+		$this->email->to($to);
+		$this->email->subject($subject);
+		$this->email->message ('<table style="width:100%">
+        <tr><td>User Email: ' . $email . '</td></tr>
+        <tr><td>Subject: ' . $subject . '</td></tr>        
+    		</table>');
+		try {
+			$this->email->send();
+			$this->callmetron_model->addNewsletterSubscribers($email);
+			$message= 'Subscribed to Newsletter.';
+			$data= array(
+				'message'=>$message
+			);
+			$this->load->view('index.php', $data);
+		} catch (Exception $e) {
+			$message= 'Could not subscribe to Newsletter.Please try again.';
+			$data= array(
+				'message'=>$message
+			);
+			$this->load->view('index.php', $data);
+		}
+	}
 }

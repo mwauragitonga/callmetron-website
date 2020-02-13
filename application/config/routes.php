@@ -56,6 +56,7 @@ $route['contact'] = 'Main_controller/contact';
 $route['partner'] = 'Main_controller/partner';
 $route['sendContactMail'] = 'Main_controller/sendContactMail';
 $route['sendPartnerMail'] = 'Main_controller/sendPartnerMail';
+$route['subscribeNewsletter'] = 'Main_controller/subscribeNewsletter';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

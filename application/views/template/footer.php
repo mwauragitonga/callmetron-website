@@ -28,10 +28,10 @@
 					<p>Need us to drop you a quick quote or schedule a demo? Leave your email and we will get back to you ASAP.</p>
 					<div class="d-flex flex-row" id="mc_embed_signup">
 
-
-						<form class="navbar-form" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+						<?php echo(form_open('subscribeNewsletter')) ?>
+						<div class="navbar-form"  method="post">
 							<div class="input-group add-on">
-								<input class="form-control" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
+								<input class="form-control" name="email" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
 								<div style="position: absolute; left: -5000px;">
 									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
 								</div>
@@ -40,9 +40,23 @@
 								</div>
 							</div>
 							<div class="info mt-20"></div>
-						</form>
-
+						</div>
+							<?php echo form_close() ?>
 					</div>
+					<?php if(!empty($message) && $message =='Subscribed to Newsletter.'){ ?>
+						<div class="alert alert-success alert-dismissible " role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+							</button>
+							<strong><?php echo $message; ?></strong>
+						</div>
+
+					<?php }elseif(!empty($message) && $message == 'Could not subscribe to Newsletter.Please try again.'){ ?>
+						<div class="alert alert-danger alert-dismissible " role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+							</button>
+							<strong><?php echo $message; ?></strong>
+						</div>
+					<?php } ?>
 				</div>
 			</div>
 		</div>
@@ -64,7 +78,7 @@
 <script src="<?php echo base_url(); ?>assets/js/easing.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/hoverIntent.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/superfish.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/jquery.ajaxchimp.min.js"></script>
+<!--<script src="--><?php //echo base_url(); ?><!--assets/js/jquery.ajaxchimp.min.js"></script>-->
 <script src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/owl.carousel.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/jquery.sticky.js"></script>

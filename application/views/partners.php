@@ -27,7 +27,7 @@
 		</div>
 		<?php echo(form_open('sendPartnerMail')) ?>
 
-		<div class="form-area mt-60" id="myForm"  class="contact-form text-right">
+		<div class="form-area mt-60" id="myForm"  class="contact-form text-right" style="margin-left: 200px">
 			<div class="row">
 				<div class="col-lg-8 form-group">
 					<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
