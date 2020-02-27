@@ -24,20 +24,28 @@ class Main_controller extends CI_Controller {
 	}
 	public function index()
 	{
-		//$this->force_ssl();
+		$this->force_ssl();
 		$this->load->view('index');
 	}
 	public function features()
 	{
+		$this->force_ssl();
 		$this->load->view('features');
 	}
 	public function contact()
 	{
+		$this->force_ssl();
 		$this->load->view('contact');
 	}
 	public function partner()
 	{
+		$this->force_ssl();
 		$this->load->view('partners');
+	}
+	public function demo()
+	{
+		$this->force_ssl();
+		$this->load->view('demo');
 	}
 	public function sendContactMail(){
 
@@ -82,12 +90,14 @@ class Main_controller extends CI_Controller {
 			$data= array(
 				'message'=>$message
 			);
+			$this->force_ssl();
 			$this->load->view('contact.php', $data);
 		} catch (Exception $e) {
 			$message= 'Email not sent! Please try again.';
 			$data= array(
 				'message'=>$message
 			);
+			$this->force_ssl();
 			$this->load->view('contact.php', $data);
 		}
 	}
@@ -133,12 +143,14 @@ class Main_controller extends CI_Controller {
 			$data= array(
 				'message'=>$message
 			);
+			$this->force_ssl();
 			$this->load->view('partners.php', $data);
 		} catch (Exception $e) {
 			$message= 'Email not sent! Please try again.';
 			$data= array(
 				'message'=>$message
 			);
+			$this->force_ssl();
 			$this->load->view('partners.php', $data);
 		}
 	}
@@ -176,12 +188,14 @@ class Main_controller extends CI_Controller {
 			$data= array(
 				'message'=>$message
 			);
+			$this->force_ssl();
 			$this->load->view('index.php', $data);
 		} catch (Exception $e) {
 			$message= 'Could not subscribe to Newsletter.Please try again.';
 			$data= array(
 				'message'=>$message
 			);
+			$this->force_ssl();
 			$this->load->view('index.php', $data);
 		}
 	}

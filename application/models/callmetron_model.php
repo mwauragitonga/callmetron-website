@@ -3,8 +3,7 @@
  * @author  Mwaura Gitonga
  * @mail mwauragitonga12@gmail.com
  */
-defined('BASEPATH') OR exit('No direct script access allowed');
-
+if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class callmetron_model extends CI_Model
 {
