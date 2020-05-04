@@ -53,7 +53,7 @@ header('Cache-Control: max-age=900');
 				<ul class="nav-menu">
 					<li class="menu-active"><a href="<?php echo base_url(); ?>home">Home</a></li>
 					<li><a href="<?php echo base_url(); ?>features">Features</a></li>
-					<li><a href="<?php echo base_url(); ?>partner">Partners</a></li>
+					<li><button><a href="<?php echo base_url(); ?>partner">Partners</a></li></button>
 					<li><button class="btn btn-md btn-outline-info "><a href="<?php echo base_url(); ?>demo">DEMO</a></button></li>
 
 					<li><a href="<?php echo base_url(); ?>contact">Contact Us</a></li>
