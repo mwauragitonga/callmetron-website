@@ -1,7 +1,7 @@
 <footer class="footer-area section-gap">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3  col-md-6 col-sm-6">
+			<div class="col-lg-4  col-md-6 col-sm-6">
 				<div class="single-footer-widget">
 					<h4 class="text-white">About CallMetron</h4>
 					<p>
@@ -9,7 +9,10 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-4  col-md-6 col-sm-6">
+			<div class="col-lg-3  col-md-6 col-sm-6">
+
+			</div>
+			<div class="col-lg-5  col-md-6 col-sm-6">
 				<div class="single-footer-widget">
 					<h4 class="text-white">Contact Us</h4>
 					<p>
@@ -20,9 +23,7 @@
 						+254-722-569-748
 					</p>
 				</div>
-			</div>
-			<div class="col-lg-5  col-md-6 col-sm-6">
-				<div class="single-footer-widget">
+<!--				<div class="single-footer-widget">
 					<h4 class="text-white">GET A QUOTE</h4>
 					<p>Need us to drop you a quick quote or schedule a demo? Leave your email and we will get back to you ASAP.</p>
 					<div class="d-flex flex-row" id="mc_embed_signup">
@@ -43,7 +44,7 @@
 
 					</div>
 				</div>
-			</div>
+-->			</div>
 		</div>
 		<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
 <!--						<p class="footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>-->

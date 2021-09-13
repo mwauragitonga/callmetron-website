@@ -7,13 +7,13 @@
 			<div class="banner-content col-lg-7 col-md-12">
 				<h4 class="text-uppercase">Discover the Value of Your Data</h4>
 				<h1>
-					CallMetron 10.2.1
+					CallMetron 14.0.2
 				</h1>
 				<p>
 					<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a
 					<b>simple and seamless solution! </b><br>
-					Few would argue that, despite the advancements of technology over the past three decades, that businesses can effectively handle their call billing
-					and analytics.
+					Few would argue that, despite the advancements of technology over the past three decades, very few businesses can effectively handle their call billing
+					and analytics.</p>
 				<p style="font-family: 'Comic Sans MS'">
 					Worry No More! CallMetron is here!</p>
 				<a href="#about" class="primary-btn header-btn text-uppercase">Explore</a>
@@ -47,8 +47,19 @@
 	</div>
 </section>
 <!-- End feature Area -->
+<br>
+<br>
+
+
 <!-- Start info Area -->
 <section class="info-area" id="about">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	<div class="container-fluid">
 		<div class="row d-flex justify-content-end align-items-center">
 			<div class="col-lg-6 col-md-12 info-left no-padding">
@@ -155,103 +166,103 @@
 <br>
 <!-- End offered Area -->
 <!-- Start testimonial Area -->
-<section class="testimonial-area relative section-gap">
-	<div class="overlay overlay-bg"></div>
-	<div class="container">
-		<div class="row d-flex justify-content-center">
-			<div class="menu-content pb-60 col-lg-8">
-				<div class="title text-center">
-					<h1 class="mb-10 text-white">Testimonials</h1>
-					<p class="text-white">What some of our clients have to say about CallMetron.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="active-testimonial">
-				<div class="single-testimonial item d-flex flex-row">
-					<div class="thumb">
-						<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/user1.png" alt="">
-					</div>
-					<div class="desc">
-						<p>
-							CallMetron has helped us a great deal with our Call Billing and we couldn't be more happier we adopted this awesome solution.
-						</p>
-						<h4 mt-30>Mwaura Gitonga</h4>
-						<p>CEO at Luvenis Ventures</p>
-					</div>
-				</div>
-				<div class="single-testimonial item d-flex flex-row">
-					<div class="thumb">
-						<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/user2.png" alt="">
-					</div>
-					<div class="desc">
-						<p>
-							I would recommend any company struggling to control their phone traffic and costs to take up CallMetron. I promise they will not regret it!
-						</p>
-						<h4 mt-30>Mark Alviro Wiens</h4>
-						<p>Head of Infrastructure, Innesco Enterprises</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<!--<section class="testimonial-area relative section-gap">-->
+<!--	<div class="overlay overlay-bg"></div>-->
+<!--	<div class="container">-->
+<!--		<div class="row d-flex justify-content-center">-->
+<!--			<div class="menu-content pb-60 col-lg-8">-->
+<!--				<div class="title text-center">-->
+<!--					<h1 class="mb-10 text-white">Testimonials</h1>-->
+<!--					<p class="text-white">What some of our clients have to say about CallMetron.</p>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		<div class="row">-->
+<!--			<div class="active-testimonial">-->
+<!--				<div class="single-testimonial item d-flex flex-row">-->
+<!--					<div class="thumb">-->
+<!--						<img class="img-fluid" src="--><?php //echo base_url(); ?><!--assets/img/user1.png" alt="">-->
+<!--					</div>-->
+<!--					<div class="desc">-->
+<!--						<p>-->
+<!--							CallMetron has helped us a great deal with our Call Billing and we couldn't be more happier we adopted this awesome solution.-->
+<!--						</p>-->
+<!--						<h4 mt-30>Mwaura Gitonga</h4>-->
+<!--						<p>CEO at Luvenis Ventures</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="single-testimonial item d-flex flex-row">-->
+<!--					<div class="thumb">-->
+<!--						<img class="img-fluid" src="--><?php //echo base_url(); ?><!--assets/img/user2.png" alt="">-->
+<!--					</div>-->
+<!--					<div class="desc">-->
+<!--						<p>-->
+<!--							I would recommend any company struggling to control their phone traffic and costs to take up CallMetron. I promise they will not regret it!-->
+<!--						</p>-->
+<!--						<h4 mt-30>Mark Alviro Wiens</h4>-->
+<!--						<p>Head of Infrastructure, Innesco Enterprises</p>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</section>-->
 <!-- End testimonial Area -->
 
 
 <!-- Start brand Area -->
-<section class="brand-area">
-	<div class="container">
-		<div class="row logo-wrap">
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l1.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l2.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l3.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l4.png" alt="">
-			</a>
-			<a class="col single-img" href="#">
-				<img class="d-block mx-auto" src="<?php echo base_url(); ?>assets/img/l5.png" alt="">
-			</a>
-		</div>
-	</div>
-</section>
+<!--<section class="brand-area">-->
+<!--	<div class="container">-->
+<!--		<div class="row logo-wrap">-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l1.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l2.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l3.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l4.png" alt="">-->
+<!--			</a>-->
+<!--			<a class="col single-img" href="#">-->
+<!--				<img class="d-block mx-auto" src="--><?php //echo base_url(); ?><!--assets/img/l5.png" alt="">-->
+<!--			</a>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</section>-->
 <!-- End brand Area -->
 <!-- Start fact Area -->
-<section class="facts-area section-gap">
-	<!--	<h3 style="">Why Choose CallMetron?</h3>-->
-
-	<div class="container">
-
-		<div class="row">
-			<div class="col single-fact">
-				<h1 class="counter">2536</h1>
-				<p>Projects Completed</p>
-			</div>
-			<div class="col single-fact">
-				<h1 class="counter">6784</h1>
-				<p>Really Happy Clients</p>
-			</div>
-			<div class="col single-fact">
-				<h1 class="counter">1059</h1>
-				<p>Total Tasks Completed</p>
-			</div>
-			<div class="col single-fact">
-				<h1 class="counter">2239</h1>
-				<p>Cups of Coffee Taken</p>
-			</div>
-			<div class="col single-fact">
-				<h1 class="counter">435</h1>
-				<p>In House Professionals</p>
-			</div>
-		</div>
-	</div>
-</section>
+<!--<section class="facts-area section-gap">-->
+<!--	<!--	<h3 style="">Why Choose CallMetron?</h3>-->-->
+<!---->
+<!--	<div class="container">-->
+<!---->
+<!--		<div class="row">-->
+<!--			<div class="col single-fact">-->
+<!--				<h1 class="counter">2536</h1>-->
+<!--				<p>Projects Completed</p>-->
+<!--			</div>-->
+<!--			<div class="col single-fact">-->
+<!--				<h1 class="counter">6784</h1>-->
+<!--				<p>Really Happy Clients</p>-->
+<!--			</div>-->
+<!--			<div class="col single-fact">-->
+<!--				<h1 class="counter">1059</h1>-->
+<!--				<p>Total Tasks Completed</p>-->
+<!--			</div>-->
+<!--			<div class="col single-fact">-->
+<!--				<h1 class="counter">2239</h1>-->
+<!--				<p>Cups of Coffee Taken</p>-->
+<!--			</div>-->
+<!--			<div class="col single-fact">-->
+<!--				<h1 class="counter">435</h1>-->
+<!--				<p>In House Professionals</p>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</section>-->
 <!-- end fact Area -->
 
 <!-- start footer Area -->
