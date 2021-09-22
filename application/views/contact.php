@@ -80,8 +80,9 @@
 			</div>
 			<div class="col-lg-4 col-md-6">
 				<div class="single-service">
-					<h4><span class="lnr lnr-laptop-phone"></span>Contact Center</h4>
-					<h4><span class="lnr lnr-phone"></span>+1 302 597 7610</h4>
+					<h4><span class="lnr lnr-laptop-phone"></span>Mobile</h4>
+					<h4><span class="lnr lnr-phone"></span>+254-712-568-946</h4>
+					<h4><span class="lnr lnr-phone-handset"></span>+254-712-568-946</h4>
 
 				</div>
 			</div>

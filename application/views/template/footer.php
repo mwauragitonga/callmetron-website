@@ -16,10 +16,11 @@
 				<div class="single-footer-widget">
 					<h4 class="text-white">Contact Us</h4>
 					<p>
-						Make the call!
+						Ready to partner with us? Make the call!
 					</p>
 					<p class="number">
-						+1 302 597 7610 <br>
+						+254-712-568-946 <br>
+						+254-722-569-748
 					</p>
 				</div>
 <!--				<div class="single-footer-widget">
