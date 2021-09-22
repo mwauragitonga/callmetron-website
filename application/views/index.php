@@ -1,69 +1,23 @@
 <?php $this->load->view('template/header'); ?>
 
 <!-- start banner Area -->
-<section class="relative" id="home">
 
-<style>
-	.header {
-		/* The image used */
-		background-image: url("image-name.extensions");
-
-		/* blur effect */
-		filter: blur(8px);
-		-webkit-filter: blur(8px);
-
-		/* Full height size*/
-		height: 100%;
-
-		/* Center and scale the image */
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	.text-mask {
-		background-color: rgb(0,0,0);
-		background-color: rgba(0,0,0, 0.4);
-		color: white;
-		font-weight: bold;
-		border: 3px solid #f1f1f1;
-
-		/* now center the mask*/
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 2;
-		width: 80%;
-		padding: 20px;
-		text-align: center;
-	}
-
-</style>
-</section>
 <section class="banner-area relative" id="home">
 	<div class="container">
-		<div class="header"></div>
-		<div class="text-mask">
-			<h1 style="font-size:60px">CallMetron 14.0.2</h1>
-			<h4 class="text-uppercase">Discover the Value of Your Data</h4>
-
-			<p>
-				<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a
-				<b>simple and seamless solution! </b><br>
-				Few would argue that, despite the advancements of technology over the past three decades, very few businesses can effectively handle their call billing
-				and analytics.</p>
-
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="row fullscreen d-flex align-items-center justify-content-end " style="height: 790px">
+		<div class="row fullscreen d-flex align-items-center justify-content-end " style="height: 629px;">
 			<div class="banner-content col-lg-7 col-md-12">
-
-<!--
+				<h4 class="text-uppercase">Discover the Value of Your Data</h4>
+				<h1>
+					CallMetron 14.0.2
+				</h1>
+				<p>
+					<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a
+					<b>simple and seamless solution! </b><br>
+					Few would argue that, despite the advancements of technology over the past three decades, very few businesses can effectively handle their call billing
+					and analytics.</p>
 				<p style="font-family: 'Comic Sans MS'">
 					Worry No More! CallMetron is here!</p>
-				<a href="#about" class="primary-btn header-btn text-uppercase">Explore</a>-->
+				<a href="#about" class="primary-btn header-btn text-uppercase">Explore</a>
 			</div>
 		</div>
 	</div>

@@ -2234,16 +2234,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-area {
 
-	/* blur effect */
-	filter: blur(2px);
-	-webkit-filter: blur(2px);
-
-	/* Full height size*/
-	height: 100%;
-
-	/* Center and scale the image */
-	background: url(../img/landing.jpg) no-repeat center;
-	background-size: cover;
+	background: url(../img/header-bg.jpg) center;
+	background-size: cover
 }
 
 @media (max-width: 767.98px) {
