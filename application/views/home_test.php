@@ -1,28 +1,38 @@
 <?php $this->load->view('template/header'); ?>
 
+<br>
 <!-- start banner Area -->
-
-<section class="banner-area relative" id="home">
+<section class="relative" id="home">
 	<div class="container">
-		<div class="row fullscreen d-flex align-items-center justify-content-end " style="height: 629px;">
-			<div class="banner-content col-lg-7 col-md-12">
-				<h4 class="text-uppercase">Discover the Value of Your Data</h4>
-				<h1>
-					CallMetron 14.0.2
-				</h1>
-				<p>
-					<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a
-					<b>simple and seamless solution! </b><br>
-					Few would argue that, despite the advancements of technology over the past three decades, very few businesses can effectively handle their call billing
-					and analytics.</p>
-				<p style="font-family: 'Comic Sans MS'">
-					Worry No More! CallMetron is here!</p>
-				<a href="#about" class="primary-btn header-btn text-uppercase">Explore</a>
+		<div class="row">
+		    <div class="col-md-6">
+				</br></br>
+				<div class="fullscreen d-flex justify-content-end" style="padding:2%;" >
+				<img src="<?php echo base_url(); ?>assets/img/landing1.jpg" alt="" class="w-100" style="border-radius: 50px;">
+				</div>
 			</div>
+			<div class="col-md-6">
+				<div class="row fullscreen d-flex align-items-center justify-content-end " style="height: 629px;">
+					<div class="banner-content">
+						<h4 class="text-uppercase">Discover the Value of Your Data</h4>
+						<h1>
+							CallMetron 14.0.2
+						</h1>
+						<p>
+							<b>Next Level Call Billing and Analytics.</b> Turning complex organizational call management into a
+							<b>simple and seamless solution! </b><br>
+							Few would argue that, despite the advancements of technology over the past three decades, very few businesses can effectively handle their call billing
+							and analytics.</p>
+						<p style="font-family: 'Comic Sans MS'">
+							Worry No More! CallMetron is here!</p>
+						<a href="#about" class="primary-btn header-btn text-uppercase">Explore</a>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 </section>
-
 <!-- End banner Area -->
            
            
