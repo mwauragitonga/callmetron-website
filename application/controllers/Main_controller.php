@@ -10,6 +10,10 @@ class Main_controller extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+	public function test()
+	{
+		$this->load->view('home_test');
+	}
 	public function features()
 	{
 		$this->load->view('features');

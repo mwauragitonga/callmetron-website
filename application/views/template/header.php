@@ -45,6 +45,7 @@ header('Cache-Control: max-age=900');
 					<li><a href="<?php echo base_url(); ?>features">Features</a></li>
 					<li><a href="<?php echo base_url(); ?>partner">Partners</a></li>
 					<li><a href="<?php echo base_url(); ?>contact">Contact Us</a></li>
+					<li><a href="<?php echo base_url(); ?>test">Home Test</a></li>
 				</ul>
 			</nav>
 			<!-- #nav-menu-container -->
