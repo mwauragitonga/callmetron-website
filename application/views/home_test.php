@@ -3,15 +3,15 @@
 <br>
 <!-- start banner Area -->
 <section class="relative" id="home">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-		    <div class="col-md-6">
+		    <div class="col-md-7">
 				</br></br>
 				<div class="fullscreen d-flex justify-content-end" style="padding:2%;" >
 				<img src="<?php echo base_url(); ?>assets/img/landing1.jpg" alt="" class="w-100" style="border-radius: 50px;">
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-5">
 				<div class="row fullscreen d-flex align-items-center justify-content-end " style="height: 629px;">
 					<div class="banner-content">
 						<h4 class="text-uppercase">Discover the Value of Your Data</h4>
